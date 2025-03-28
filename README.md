@@ -1,54 +1,45 @@
-# README Template
+# Recommendation System Project: IBM Community
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
-
-## Getting Started
-
-Instructions for how to get a copy of the project running on your local machine.
+Code to analyze interactions that users have with articles on the 
+IBM Watson Studio platform and to make recommendations about new articles.
 
 ### Dependencies
 
 ```
-Examples here
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
 ```
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
 
 ```
-Give an example here
+pip install -r requirements.txt
 ```
 
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+The Jupyter notebook contains:
+1. Exploratory Data Analysis
+2. Rank Based Recommendations
+3. User-user Based Collaborative Filtering
+4. Content Based Recommendations
+5. Matrix Factorization
+6. Discussion
+
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
+* [scikit-learn](https://scikit-learn.org/stable/) - Package for machine learning
+* [pandas](https://pandas.pydata.org/) - Package for data analyses
+* [numpy](https://numpy.org/) - Package for scientific computing
+* [matplotlib](https://matplotlib.org/) Package for creating visualizations
+* [seaborn](https://seaborn.pydata.org/) Package for statistical data visualizations (based on matplotlib)
 
-Include all items used to build project.
 
 ## License
 
